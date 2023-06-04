@@ -1,0 +1,80 @@
+/* Main Body*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35
+}
+
+
+/* ---> The Below codes are for Header components   */
+
+#header-section{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.first-navbar-content{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: 30px;
+}
+
+.logo{
+    width: 75px;
+}
+
+.text{
+    color: #61DAFB;
+    margin-left: 30px;
+}
+
+.second-navbar-content{
+    color: #fff;
+    margin-right: 120px;
+}
+
+/* ---> The Above codes are for Header components   */
+
+/* ---> The Below codes are for Body components   */
+
+.section{
+    background: url('./images/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position:right 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 80px 90px;
+    color: white;
+}
+
+.section-h1{
+    margin: 0;
+}
+
+.nav-list{
+    margin-top: 35px;
+    max-width: 400px;
+}
+
+.ele{
+    /* top right bottom left --> Format of margin*/
+    padding-block: 10px;
+    font-size: 1.1em;
+}
+
+.ele::marker{
+    font-size: 1.3em;
+    color:#61DAFB;
+}
